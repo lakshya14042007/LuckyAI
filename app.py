@@ -10,7 +10,7 @@ from telegram.ext import (
     ContextTypes,
     filters
 )
-from mistralai import Mistral
+from mistralai.client import Mistral
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -175,3 +175,4 @@ if __name__ == "__main__":
 '''
 venv312\Scripts\activate
 '''
+
